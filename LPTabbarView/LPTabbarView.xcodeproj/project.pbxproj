@@ -14,6 +14,8 @@
 		E8D028F41AD4DEC3008BE16D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D028F31AD4DEC3008BE16D /* Images.xcassets */; };
 		E8D028F71AD4DEC3008BE16D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D028F51AD4DEC3008BE16D /* LaunchScreen.xib */; };
 		E8D029031AD4DEC3008BE16D /* LPTabbarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D029021AD4DEC3008BE16D /* LPTabbarViewTests.m */; };
+		E8D029101AD516D8008BE16D /* LPTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0290F1AD516D8008BE16D /* LPTabbar.m */; };
+		E8D029131AD51CD2008BE16D /* LPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D029121AD51CD2008BE16D /* LPTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E8D028FC1AD4DEC3008BE16D /* LPTabbarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPTabbarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D029011AD4DEC3008BE16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D029021AD4DEC3008BE16D /* LPTabbarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPTabbarViewTests.m; sourceTree = "<group>"; };
+		E8D0290E1AD516D8008BE16D /* LPTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTabbar.h; sourceTree = "<group>"; };
+		E8D0290F1AD516D8008BE16D /* LPTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTabbar.m; sourceTree = "<group>"; };
+		E8D029111AD51CD2008BE16D /* LPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTabBarController.h; sourceTree = "<group>"; };
+		E8D029121AD51CD2008BE16D /* LPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		E8D028E51AD4DEC3008BE16D /* LPTabbarView */ = {
 			isa = PBXGroup;
 			children = (
+				E8D0290D1AD516A9008BE16D /* LPTabbarView */,
 				E8D028EA1AD4DEC3008BE16D /* AppDelegate.h */,
 				E8D028EB1AD4DEC3008BE16D /* AppDelegate.m */,
 				E8D028ED1AD4DEC3008BE16D /* ViewController.h */,
@@ -117,6 +124,17 @@
 				E8D029011AD4DEC3008BE16D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D0290D1AD516A9008BE16D /* LPTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0290E1AD516D8008BE16D /* LPTabbar.h */,
+				E8D0290F1AD516D8008BE16D /* LPTabbar.m */,
+				E8D029111AD51CD2008BE16D /* LPTabBarController.h */,
+				E8D029121AD51CD2008BE16D /* LPTabBarController.m */,
+			);
+			name = LPTabbarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D029131AD51CD2008BE16D /* LPTabBarController.m in Sources */,
 				E8D028EF1AD4DEC3008BE16D /* ViewController.m in Sources */,
+				E8D029101AD516D8008BE16D /* LPTabbar.m in Sources */,
 				E8D028EC1AD4DEC3008BE16D /* AppDelegate.m in Sources */,
 				E8D028E91AD4DEC3008BE16D /* main.m in Sources */,
 			);

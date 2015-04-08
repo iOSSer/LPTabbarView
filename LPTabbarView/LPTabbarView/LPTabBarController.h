@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LPTabBarController.h
 //  LPTabbarView
 //
 //  Created by lipeng on 15/4/8.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LPTabbar.h"
-@interface ViewController : UIViewController
 
-@property (nonatomic, strong) LPTabbar *tabbar;
+@interface LPTabBarController : UITabBarController
+
 @end
-
